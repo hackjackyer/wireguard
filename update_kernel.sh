@@ -1,5 +1,4 @@
 !#/bin/bash
-# by hackjackyer
 yum -y install epel-release curl
 sed -i "0,/enabled=0/s//enabled=1/" /etc/yum.repos.d/epel.repo
 yum remove -y kernel-devel
